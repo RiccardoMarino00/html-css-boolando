@@ -23,14 +23,32 @@ a{
 
                            /* LAYOUT */
 
-.row{
+.row {
     flex-wrap: wrap;
     display: flex;
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
+}
+                            /* HEADER */
+
+.col-header{
+    /* width: 200px; */
+}
+
+.row, .header{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-4{
+    width: calc(4 * 100% / 12);
+}
+
+.row, .footer{
+    justify-content: space-between;
 }
 
                                /* DEBUG */
@@ -45,7 +63,7 @@ a{
     padding: 20px;
 }
 
-.debug .col{
+.debug .col, .col-4, .col-header{
     border: 1px solid green;
     padding: 20px;
 }
