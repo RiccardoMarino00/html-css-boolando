@@ -127,6 +127,13 @@ body{
     background-image: url(../img/6b.webp);
 }
 
+.prize-red{
+    color: red;
+}
+
+.text-line{
+    text-decoration: line-through;
+}
 
 .card:hover .overlay{
     opacity: 1;
