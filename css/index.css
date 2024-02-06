@@ -1,0 +1,51 @@
+                          /* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+menu,
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+                           /* LAYOUT */
+
+.row{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+                               /* DEBUG */
+
+.debug .container{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.debug .row{
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.debug .col{
+    border: 1px solid green;
+    padding: 20px;
+}
