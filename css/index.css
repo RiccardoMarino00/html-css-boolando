@@ -39,7 +39,12 @@ body{
                             /* HEADER */
 
 .col-header{
-    /* width: 200px; */
+    font-weight: 700;
+    color: white;
+}
+
+.header{
+    background-color: orange;
 }
 
 .row, .header{
@@ -139,15 +144,31 @@ body{
     opacity: 1;
 }
 
+.card{
+    margin: 10px 10px;
+}
+
+
                               /* FOOTER */
 
 .row, .footer{
     justify-content: space-between;
 }
 
+.footer{
+    color: white;
+    background-color: rgb(42, 40, 40);
+    height: 90px;
+    margin-top: 40px;
+}
+
+.info{
+    padding: 10px;
+}
+
                                /* DEBUG */
 
-.debug .container{
+/* .debug .container{
     border: 1px solid red;
     padding: 20px;
 }
@@ -160,4 +181,4 @@ body{
 .debug .col, .col-4, .col-header{
     border: 1px solid green;
     padding: 20px;
-}
+} */
