@@ -63,6 +63,10 @@ body{
     display: block;
 }
 
+.littlegray{
+    color: lightgray;
+}
+
 .sconto{
     position: absolute;
     left: 0;
