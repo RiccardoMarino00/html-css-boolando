@@ -45,6 +45,8 @@ body{
 
 .header{
     background-color: orange;
+    /* position: fixed;
+    width: 100%; */
 }
 
 .row, .header{
@@ -56,12 +58,15 @@ body{
     width: calc(4 * 100% / 12);
 }
 
-                             /* MAIN */
-
 .card-header{
     position: relative;
     display: block;
 }
+
+
+                             /* MAIN */
+
+
 
 .littlegray{
     color: lightgray;
@@ -168,6 +173,14 @@ body{
 
 .info{
     padding: 10px;
+}
+
+.social{
+    height: 20px;
+    margin: 5px;
+}
+
+.col{
 }
 
                                /* DEBUG */
