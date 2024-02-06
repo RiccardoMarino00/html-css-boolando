@@ -47,6 +47,42 @@ a{
     width: calc(4 * 100% / 12);
 }
 
+                             /* MAIN */
+
+.card-header{
+    position: relative;
+    display: block;
+}
+
+.sconto{
+    position: absolute;
+    left: 0;
+    bottom: 20px; 
+    background-color: rgb(182, 3, 3);
+    color: white;
+}
+
+.eco-friendly{
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    background-color: rgb(84, 207, 84);
+    color: white;
+}
+
+.cuore{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-color: white;
+    width: 30px;
+    /* height: 40px; */
+    text-align: center;
+    font-size: 30px;
+}
+
+                              /* FOOTER */
+
 .row, .footer{
     justify-content: space-between;
 }
